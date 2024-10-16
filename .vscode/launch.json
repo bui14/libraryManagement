@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "main.app",
             "projectName": "libraryManagement_fa4add16",
-            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-21.0.4/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-23/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
