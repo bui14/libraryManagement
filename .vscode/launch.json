@@ -8,7 +8,7 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
-            "mainClass": "main.app",
+            "mainClass": "main.App",
             "projectName": "libraryManagement_fa4add16",
             "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-23/lib\" --add-modules javafx.controls,javafx.fxml"
         }
