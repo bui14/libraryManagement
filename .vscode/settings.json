@@ -4,6 +4,13 @@
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.fxml.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.swing.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx-swt.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.web.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.base.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.media.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.controls.jar",
+        "c:\\Users\\ADMIN\\Desktop\\libraryManagement\\lib\\javafx.graphics.jar"
     ]
 }
