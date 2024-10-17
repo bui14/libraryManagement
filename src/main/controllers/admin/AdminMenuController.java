@@ -1,5 +1,5 @@
 package main.Controllers.Admin;
 
-public class AdminController {
+public class AdminMenuController {
 
 }

@@ -1,0 +1,91 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" >
+
+    <!-- Tiêu đề trên cùng -->
+    <top>
+        <Label text="Hồ sơ người dùng" style="-fx-font-size: 20px; -fx-padding: 10px;" />
+    </top>
+
+    <!-- Thông tin chi tiết người dùng -->
+    <center>
+        <GridPane padding="20" hgap="10" vgap="10">
+            <!-- Thông tin cá nhân -->
+            <Label text="ID Người dùng:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextField fx:id="userIdField" GridPane.columnIndex="1" GridPane.rowIndex="0" editable="false"/>
+
+            <Label text="Tên:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <TextField fx:id="userNameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+            <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label text="Số điện thoại:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+            <TextField fx:id="phoneNumberField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <Label text="Địa chỉ:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+            <TextField fx:id="addressField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+            <Label text="Ngày sinh:" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+            <DatePicker fx:id="dobPicker" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+            <!-- Thông tin thành viên -->
+            <Label text="Ngày đăng ký:" GridPane.columnIndex="0" GridPane.rowIndex="6"/>
+            <DatePicker fx:id="registrationDateField" GridPane.columnIndex="1" GridPane.rowIndex="6" editable="false"/>
+
+            <Label text="Loại thành viên:" GridPane.columnIndex="0" GridPane.rowIndex="7"/>
+            <ChoiceBox fx:id="membershipTypeChoiceBox" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Basic"/>
+                        <String fx:value="Premium"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+
+            <Label text="Ngày hết hạn thành viên:" GridPane.columnIndex="0" GridPane.rowIndex="8"/>
+            <DatePicker fx:id="expiryDateField" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+
+        </GridPane>
+    </center>
+
+    <!-- Lịch sử mượn trả sách -->
+    <bottom>
+        <VBox spacing="10" padding="10">
+            <Label text="Lịch sử mượn trả sách:" style="-fx-font-size: 16px;" />
+            <TableView fx:id="borrowHistoryTable">
+                <columns>
+                    <TableColumn text="Tên sách" />
+                    <TableColumn text="Ngày mượn" />
+                    <TableColumn text="Ngày dự kiến trả" />
+                    <TableColumn text="Ngày trả thực tế" />
+                    <TableColumn text="Trạng thái" />
+                </columns>
+            </TableView>
+
+            <!-- Trạng thái tài khoản -->
+            <HBox spacing="10">
+                <Label text="Trạng thái tài khoản:"/>
+                <ChoiceBox fx:id="accountStatusChoiceBox">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Active"/>
+                            <String fx:value="Suspended"/>
+                        </FXCollections>
+                    </items>
+                </ChoiceBox>
+            </HBox>
+
+            <!-- Nút Lưu hoặc Hủy -->
+            <HBox spacing="10" alignment="center">
+                <Button text="Lưu" onAction="#handleSaveProfile"/>
+                <Button text="Hủy" onAction="#handleCancelProfile"/>
+            </HBox>
+        </VBox>
+    </bottom>
+
+</BorderPane> -->

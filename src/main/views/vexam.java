@@ -1,4 +1,4 @@
-package main.views;
+package main.Views;
 
 public class vexam {
 

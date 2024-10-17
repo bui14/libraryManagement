@@ -1,5 +1,5 @@
-package main.controllers.client;
+package main.Controllers.Client;
 
-public class clientController {
+public class ClientController {
 
 }
